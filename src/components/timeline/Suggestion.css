@@ -1,0 +1,55 @@
+.suggestions {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.suggestions__title {
+  color: grey;
+  font-weight: bold;
+}
+
+.username__left {
+  display: inline-flex;
+  align-items: center;
+}
+
+.username__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.relation {
+  color: grey;
+  font-size: 12px;
+}
+
+.suggestions__username {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.follow__button {
+  color: #0095f6;
+  font-weight: bold;
+  background: 0;
+  border: 0;
+  margin-right: 5px;
+}
+
+.follow__button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.username {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.copyright{
+color: #625959;
+font-size: 13px;
+line-height: 23px;
+}
