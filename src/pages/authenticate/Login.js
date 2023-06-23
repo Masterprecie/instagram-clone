@@ -15,7 +15,7 @@ const Login = () => {
 	const handleLogin = (e) => {
 		e.preventDefault()
 		signInWithEmailAndPassword(auth, email, password)
-		navigate('/')
+		navigate('/home')
 	}
 
 	return (
