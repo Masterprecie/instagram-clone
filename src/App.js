@@ -49,7 +49,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Login />} />
         <Route
-          path="/"
+          path="/home"
           element={
             user ? (
               <Navigate to="/home" replace />
