@@ -28,7 +28,7 @@ const Signup = () => {
 							displayName: username,
 						})
 					)
-				navigate("/login")
+				navigate("/")
 			})
 			.catch((err) => {
 				alert(err)
@@ -81,7 +81,7 @@ const Signup = () => {
 				<span>
 
 					Already have an account? {" "}
-					<Link to='/login'> <span style={{ color: ' #0095f6' }}
+					<Link to='/'> <span style={{ color: ' #0095f6' }}
 
 					>Log In</span></Link>
 

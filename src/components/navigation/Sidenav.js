@@ -30,7 +30,7 @@ const Sidenav = () => {
 	const handleLogout = () => {
 		dispatch(logoutUser())
 		signOut(auth)
-		navigate('/login')
+		navigate('/')
 	}
 	return (
 		<div className='sidenav'>
