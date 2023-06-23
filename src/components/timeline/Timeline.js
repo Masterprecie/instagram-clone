@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react'
 import './Timeline.css'
 import Suggestion from './Suggestion'

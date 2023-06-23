@@ -1,7 +1,7 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 
 import { useDispatch, useSelector } from 'react-redux';
 import './App.css';
-import Authenticate from './pages/authenticate/Authenticate';
 import Homepage from './pages/home/Homepage';
 import { useEffect } from 'react';
 import { auth } from './firebase';
