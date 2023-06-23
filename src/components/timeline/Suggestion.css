@@ -6,6 +6,8 @@
 .suggestions__title {
   color: grey;
   font-weight: bold;
+  display: flex;
+  justify-content: space-between;
 }
 
 .username__left {

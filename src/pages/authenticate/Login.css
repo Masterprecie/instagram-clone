@@ -1,0 +1,62 @@
+
+
+.login {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  padding: 50px;
+  justify-content: center;
+ 
+}
+
+.login > img {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.login > input {
+  background-color: #ffffff24;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 12px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.login > input:focus {
+  outline: 1px solid grey;
+}
+
+.login .login__facebook {
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+.login .login__facebook > a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-decoration: none;
+}
+.login > button {
+  padding: 12px;
+  border-radius: 8px;
+  border: 0;
+  font-weight: bolder;
+  color: white;
+  background-color: #0095f6;
+}
+
+.login > button:hover {
+  cursor: pointer;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none!important;
+}

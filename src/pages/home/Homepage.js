@@ -1,7 +1,7 @@
 import React from 'react'
 import './Homepage.css'
-import Timeline from '../components/timeline/Timeline'
-import Sidenav from '../components/navigation/Sidenav'
+import Timeline from '../../components/timeline/Timeline'
+import Sidenav from '../../components/navigation/Sidenav'
 
 
 

@@ -1,11 +1,21 @@
 import React from 'react'
 import './Suggestion.css'
 import { Avatar } from '@mui/material'
+import Profile from '../profile/Profile'
 
 const Suggestion = () => {
 	return (
 		<div className='suggestions'>
-			<div className='suggestions__title'>Suggestions for you</div>
+			<Profile />
+			<div className='suggestions__title'>
+				<div >
+					Suggested for you
+				</div>
+				<div>
+					<span style={{ marginRight: '10px', color: '#fff' }}>See All</span>
+				</div>
+			</div>
+
 			{/* First Suggestion */}
 			<div className="suggestions__username">
 				<div className='username__left'>
@@ -29,6 +39,8 @@ const Suggestion = () => {
 					<div className='username__info'>
 						<span className='username'>jane</span>
 						<span className='relation'>Suggested for you</span>
+
+
 					</div>
 				</div>
 				<button className='follow__button' >Follow</button>
